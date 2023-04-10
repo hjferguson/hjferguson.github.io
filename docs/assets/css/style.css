@@ -1,0 +1,12 @@
+.centered-content {
+    margin: 0 auto;
+    width: 60%;
+    background-color: lightgrey;
+    padding: 20px;
+  }
+
+.centered-image {
+  display: block;
+  margin: 0 auto;
+  border-radius:10px;
+}
