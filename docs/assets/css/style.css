@@ -9,4 +9,7 @@
   display: block;
   margin: 0 auto;
   border-radius:10px;
+  max-width: 100%; /*Keeps the image under control*/
+  width: 80%;
+  height: auto;
 }
