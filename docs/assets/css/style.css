@@ -24,6 +24,7 @@ nav a:hover {
 
 .centered-content a {
   display: inline-block;
+  
 }
 
 .centered-content p {
@@ -34,8 +35,7 @@ nav a:hover {
 
 .centered-content i {
   color: #007BFF;
-  width: 300%;
-  height: auto;
+  font-size: 2rem;
 }
 
 .centered-image {
