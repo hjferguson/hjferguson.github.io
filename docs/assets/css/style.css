@@ -25,11 +25,14 @@ nav a:hover {
 
 .centered-content {
     margin: 0 auto;
-    width: 50%; /* was 70% */
+    max-width: 70%;
     background-color: lightgrey;
     padding: 2rem;
     text-align: center;
+    
   }
+
+  
 
 .centered-image {
   display: block;
