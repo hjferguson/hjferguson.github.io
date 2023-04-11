@@ -1,10 +1,12 @@
 body {
   font-family: 'Courier New', Courier, monospace;
   line-height: 1.5;
+  
 }
 
 nav {
   display: flex;
+  width: 60%;
   justify-content: center;
   background: lightgrey;
   padding: 1rem;
@@ -17,7 +19,7 @@ nav a{
 }
 
 nav a:hover {
-  color:blue;
+  font-size: 3rem;
 }
 
 .centered-content {
@@ -25,6 +27,7 @@ nav a:hover {
     width: 60%;
     background-color: lightgrey;
     padding: 2rem;
+    text-align: center;
   }
 
 .centered-image {
