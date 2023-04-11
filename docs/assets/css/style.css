@@ -20,12 +20,12 @@ nav a{
 }
 
 nav a:hover {
-  font-size: 0.25rem;
+  font-size: 1.25rem;
 }
 
 .centered-content {
     margin: 0 auto;
-    width: 60%;
+    width: 70%;
     background-color: lightgrey;
     padding: 2rem;
     text-align: center;
