@@ -36,6 +36,7 @@ nav a:hover {
 .centered-content i {
   color: #007BFF;
   font-size: 2rem;
+  margin: 0 0.5rem;
 }
 
 .centered-image {
@@ -55,6 +56,7 @@ nav a:hover {
   border-radius: 4px;
   text-decoration: none;
   transition: background-color 0.3s;
+  margin-top: 0.5rem;
 }
 
 .project-box a:hover {
