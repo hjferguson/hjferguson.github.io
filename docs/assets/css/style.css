@@ -4,13 +4,13 @@ body {
   
 }
 
-nav {
+/* nav {
   display: flex;
   width: 60%;
   justify-content: center;
   background: lightgrey;
   padding: 1rem;
-}
+} */
 
 nav a{
   color: black;
@@ -19,7 +19,7 @@ nav a{
 }
 
 nav a:hover {
-  font-size: 3rem;
+  font-size: 1rem;
 }
 
 .centered-content {
