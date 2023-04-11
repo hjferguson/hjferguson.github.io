@@ -37,5 +37,16 @@ document.addEventListener("DOMContentLoaded", function () {
     );
   }
   
+  window.addEventListener("scroll", function () {
+    for (var i = 0; i < projects.length; i++) {
+        if (isElementInViewport(projects[i])) {
+            projects[i].classList.add("slide-in");
+            projects[i].classList.remove("hidden");
+        } else {
+            projects[i].classList.remove("slide-in");
+            projects[i].classList.add("hidden");
+        }
+    }
+});
   
   
