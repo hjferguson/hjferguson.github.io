@@ -5,14 +5,6 @@ body {
   
 }
 
-/* nav {
-  display: flex;
-  width: 60%;
-  justify-content: center;
-  background: lightgrey;
-  padding: 1rem;
-} */
-
 nav a{
   color: black;
   text-decoration: none;
@@ -24,15 +16,25 @@ nav a:hover {
 }
 
 .centered-content {
-    margin: 0 auto;
-    max-width: 70%;
-    background-color: lightgrey;
-    padding: 2rem;
-    text-align: center;
+  margin: 0 auto;
+  width: 70%;
+  background-color: lightgrey;
+  padding: 2rem;
+  text-align: center;
     
-  }
+}
 
-  
+.centered-content p {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.centered-content i {
+  color: #007BFF;
+  width: 300%;
+  height: auto;
+}
 
 .centered-image {
   display: block;
@@ -77,9 +79,3 @@ nav a:hover {
   left: 0;
   transition: all 1s ease-out;
 }
-
-/* i {
-  color: #007BFF;
-  width: 300%;
-  height: auto;
-} */
