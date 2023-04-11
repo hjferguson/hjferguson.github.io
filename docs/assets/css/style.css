@@ -39,11 +39,18 @@ nav a:hover {
   height: auto;
 }
 
-.project-box {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 1rem;
-  margin-bottom: 1rem;
+.project-box a {
+  display: inline-block;
+  background-color: #007BFF;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.project-box a:hover {
+  background-color: #0056b3;
 }
 
 .project-image {
@@ -58,10 +65,11 @@ nav a:hover {
   opacity: 0;
   position: relative;
   left: -100px;
-  transition: all 0.5s;
+  transition: all 0.5s ease;
 }
 
 .slide-in {
   opacity: 1;
   left: 0;
+  transition: all 0.5s ease;
 }
