@@ -16,8 +16,8 @@
 <body>
     <header>
         <nav class="centered-content">
-            <a href="#resume">Resume</a>
             <a href="#projects">Projects</a>
+            <a href="#resume">Resume</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
@@ -35,12 +35,6 @@
             </p>
         </div>
     </section>
-
-    <section id="resume">
-        <div class="centered-content">
-            <h2>Resume</h2>
-            <p>Here is a link to my resume: <a href="docs/assets/Resume_Mar_2023.pdf">Harlan Ferguson Resume</a></p>
-        </div>
 
     <section id="projects">
         <div class="centered-content">
@@ -77,8 +71,29 @@
                 </p>
                 <a href="https://github.com/hjferguson/Employee_Purchases_Managment_App">View Project</a>
             </div>
+
+            <div class="project-box">
+                <h3>Birthday Bot</h3>
+                <img src="docs/assets/img/birthday_bot.jpg" alt="Screenshot of the bot texting happy birthday to the recipient" class="project-image" style="max-width: 25%;">
+                <p>This was my first project using APIs, and before I knew what a .csv was... It's definately in need of a V2, but I'm proud nontheless. 
+                    The program has a list of friends with their phone numbers and birthdays. I have the program running daily on a raspberry pi,
+                    and cron tasks. The program checks the system date, and compares it to dates in the list. If there is a match,
+                    the program sends a text message to the recipient. 
+                </p>
+                <a href="https://github.com/hjferguson/Birthday_Bot_V1">View Project</a>
+            </div>
+
         </div>
     </section>
+
+    <section id="resume">
+        <div class="centered-content">
+            <h2>Resume</h2>
+            <div class="resume-button">
+                <a href="docs/assets/Resume_Mar_2023.pdf">Harlan Ferguson Resume</a>
+            </div>
+            
+        </div>
 
     <section id="contact">
         <div class="centered-content">
