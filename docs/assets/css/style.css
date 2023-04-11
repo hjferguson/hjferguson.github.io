@@ -24,6 +24,10 @@ nav a:hover {
     
 }
 
+.centered-content a {
+  display: inline-block;
+}
+
 .centered-content p {
   width: 50%;
   margin: 0 auto;
