@@ -103,7 +103,9 @@ nav a:hover {
   max-width: 70%;
   height: auto;
   border-radius: 5px;
+  box-sizing: border-box;
 }
+
 
 .hidden {
   opacity: 0;
