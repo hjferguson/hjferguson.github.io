@@ -29,7 +29,7 @@
             <img src="docs/assets/img/profile_pic.jpg" alt="Photo of Harlan Ferguson on the TTC, with his dog, Mango." class="centered-image">
             <p>Hello, I'm Harlan, a student at George Brown College in Toronto, Canada. 
                 <br>
-                I'm currently studying Computer Programming and Analysis, and I'm looking forward to where this AI boom is headed.
+                I'm currently studying Computer Programming and Analysis, and I'm looking forward to where this AI boom is headed!
                 <br>
                 Below are some of my most recent projects.
             </p>
@@ -37,6 +37,8 @@
     </section>
 
     <section id="projects">
+        <h2>Projects</h2>
+
         <div class="centered-content">
 
             <div class="project-box">
@@ -46,18 +48,15 @@
                     Your browser does not support the video tag.
                 </video>
                 <p>For this project, I wanted to make my own dataset and then train a language model. I went with Reddit because of their free API use. After 
-                    generating the dataframe with thousands of subreddit titles and their corresponding subreddits as their labels, I cleaned and vectorized 
+                    generating a dataframe with thousands of subreddit titles and their corresponding subreddits as their labels, I cleaned and vectorized 
                     it in preparation for training. Using Scikit's Bayes model, I trained and tuned the data to an average F1 score of 80%. From there, 
                     I developed a webapp for users to enter a title, and have ML predict where that title would belong on Reddit.
-                    <br><br>Techstack: Python, Django, Scikit-Learn, Pandas, Typescript, React
+                    <br><br>Techstack: Python (Django/Scikit-Learn/Pandas), Typescript, React.js
                 </p>
                 <a href="https://github.com/hjferguson/reddit-ML">View Project</a>
             </div>
             
 
-
-
-                <h2>Projects</h2>
                 <div class="project-box">
                 <h3>Workorder Management System</h3>
                 <video controls autoplay muted loop class="project-image-video">
@@ -66,7 +65,7 @@
                 </video>
                 <p>For this project, we were tasked to make a management system. I chose to manage repair workorders
                     because at the time of writing this, I'm working part-time as a maintenance worker at a building. 
-                    It allows for basic workorder creation, editting, and deletion all with a simple UI. <br><br>Techstack: Python (Tkinter/Sqlite3)
+                    It allows for basic workorder creation, search, editting, and deletion all with a simple UI. <br><br>Techstack: Python (Tkinter/Sqlite3)
                 </p>
                 <a href="https://github.com/hjferguson/workorderManagementSystem">View Project</a>
             </div>
@@ -77,10 +76,10 @@
                     <source src="docs/assets/video/TTT_examp.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
-                <p>For this project, my team and I developed a Tic-Tac-Toe game using Java. For the GUI, we used Swing because we hadn't used it before. 
+                <p>For this project, my team and I developed a Tic-Tac-Toe game using Java. For the GUI, we used Swing to get a better understanding of that package. 
                     The menu allows for the user to choose between a human player, a computer player using random inputs, or a computer player using the minimax algorithm.
-                    It was our introduction to "AI" and recursive algorithms.
-                    <br><br>Techstack: Java (Swing/Java)
+                    It was our introduction to "AI" and recursive algorithms since we had to write the algorithm ourselves and not use imports.
+                    <br><br>Techstack: Java (Swing)
                 </p>
                 <a href="https://github.com/OwenB-jng/TicTacToeGame">View Project</a>
             </div>
@@ -89,10 +88,10 @@
                 <h3>Employee Purchases Manager</h3>
                 <img src="docs/assets/img/employee_purchases.jpg" alt="Screenshot of employee purchases console application" class="project-image">
                 <p>For this project, I was tasked to create a console application for a store that can manage employee purchases. 
-                    We were asked to give different discounts to certain employement types, and to track total purchases versus total discounts.
+                    Part of the project requirements were to give different discounts to certain employement types, and to track total purchases versus total discounts.
                     I went above and beyond by using best object oriented programming practices, which was not a requirement, and not taught in the course
-                    for another few weeks. Going this design route allowed for tracking to be a lot easier, however it did make
-                    data validation in the menu system a bit more difficult.
+                    for another few weeks. Going this design route allowed for easier code readability and understanding, compared to how others implemented
+                    the assignment, by writing all of it in a single python file.
                     <br><br>Techstack: Python 
                 </p>
                 <a href="https://github.com/hjferguson/Employee_Purchases_Managment_App">View Project</a>
@@ -105,7 +104,7 @@
                     The program has a list of friends with their phone numbers and birthdays. I have the program running daily on a raspberry pi,
                     and cron jobs. The program checks the system date, and compares it to dates in the list. If there is a match,
                     the program sends a text message to the recipient using SMTP. I went with this approach because I didn't want to pay for a service like Twilio.
-                    <br><br>Techstack: Python (SMTP) 
+                    <br><br>Techstack: Python
                 </p>
                 <a href="https://github.com/hjferguson/Birthday_Bot_V1">View Project</a>
             </div>
