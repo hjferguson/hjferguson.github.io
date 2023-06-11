@@ -102,13 +102,14 @@
             <div class="project-box">
                 <h3>Auto Texting Birthday Bot</h3>
                 <img src="docs/assets/img/birthday_bot.jpg" alt="Screenshot of the bot texting happy birthday to the recipient" class="project-image" style="max-width: 25%;">
-                <p>This was my first project using APIs, and before I knew what a .csv was... It's definately in need of a V2, but I'm proud nontheless. 
-                    The program has a list of friends with their phone numbers and birthdays. I have the program running daily on a raspberry pi,
-                    and cron jobs. The program checks the system date, and compares it to dates in the list. If there is a match,
-                    the program sends a text message to the recipient using SMTP. I went with this approach because I didn't want to pay for a service like Twilio.
-                    <br><br>Techstack: Python
+                <p>This was my first ever project (2020). It originally used SMTP to send birthday messages to my friends. It's what gave me the confidence to go to school
+                    full-time for programming and I'm glad I did. 
+                    It was fun to learn/write at the time, but it had it's flaws. Like how most mobile carriers don't support SMTP by default. So it ended up not being as helpful
+                    as planned. So I figured I would re-write it from scratch using my current expertise. Now the program uses the Twilio API, which allows me to text anyone in my
+                    dataset without issue. Now the program is a lot more reliable. Successfully running with cron jobs on a Raspberry Pi3!
+                    <br><br>Techstack: Python, Bash
                 </p>
-                <a href="https://github.com/hjferguson/Birthday_Bot_V1">View Project</a>
+                <a href="https://github.com/hjferguson/birth_bot_v2">View Project</a>
             </div>
 
         </div>
