@@ -169,6 +169,10 @@ form textarea {
   transition: all 1s ease-out;
 }
 
+h1 {
+  font-size: 32px;
+}
+
 /* For tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
   .centered-content {
