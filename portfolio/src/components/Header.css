@@ -1,0 +1,63 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .nav-logo a {
+    color: #fff;
+    font-size: 1.5em;
+    text-decoration: none;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.1em;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .nav-social a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.3em;
+  }
+  
+  .nav-social a:hover {
+    color: #ddd;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+    }
+  
+    .nav-links {
+      margin: 10px 0;
+    }
+  
+    .nav-social {
+      margin: 10px 0;
+    }
+  }
+  
