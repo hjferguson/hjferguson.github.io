@@ -6,7 +6,7 @@ const Header = () => (
   <header>
     <nav className="navbar">
       <div className="nav-logo">
-        <Link to="/">Harlan Jazz Ferguson</Link>
+        <Link to="/">Harlan Ferguson</Link>
       </div>
       <div className="nav-links">
         <Link to="/">About</Link>

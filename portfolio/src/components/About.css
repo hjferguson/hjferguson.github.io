@@ -1,0 +1,106 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#about {
+  padding: 40px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.about-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  width: 100%;
+  max-width: 500px; /* Adjust this value as needed */
+  height: auto;
+ 
+}
+
+.info-tile {
+  flex: 1;
+  background-color: #dcd5d5;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.info-tile h1 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.info-tile h4 {
+  font-size: 1em;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.info-tile p {
+  font-size: 0.9em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact-button {
+  background-color: #4a90e2;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-button:hover {
+  background-color: #357ab8;
+}
+
+.about-description {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-description p {
+  margin: 20px 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Media Queries for Responsiveness */
+@media (min-width: 768px) {
+  .about-content {
+      flex-direction: row;
+      justify-content: space-between;
+  }
+
+  .info-tile {
+      margin-left: 20px;
+      margin-bottom: 0;
+  }
+
+  .about-description {
+      margin-top: 20px;
+  }
+}
