@@ -20,7 +20,7 @@ const About = () => (
       <div className="additional-info">
         <div className="info-item">
           <i className="fas fa-graduation-cap"></i>
-          <p>Graduated with honours with an Advanced Diploma in Computer Programming and Analysis from George Brown College, Toronto Canada.</p>
+          <p>Graduated with honours with an Advanced Diploma in Computer Programming and Analysis from George Brown College, Toronto Canada</p>
         </div>
         <div className="info-item">
           <i className="fas fa-trophy"></i>
@@ -28,7 +28,7 @@ const About = () => (
         </div>
         <div className="info-item">
           <i className="fas fa-running"></i>
-          <p>Outside of coding, I enjoy video games, brazilian jiu jitsu, and walking my dog, Mango.</p>
+          <p>Outside of coding, I enjoy video games, brazilian jiu jitsu, and walking my dog, Mango</p>
         </div>
       </div>
     </div>

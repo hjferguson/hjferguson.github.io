@@ -56,6 +56,9 @@ body {
   max-width: 300px; /* Adjust this value as needed */
   height: auto;
   border-radius: 50%; /* Optional: To make the image circular */
+  border-color:#ffffff;
+  border-width: 6px;
+  border-style: solid;
 }
 
 .text-container {
@@ -110,11 +113,9 @@ body {
   font-size: 1.2em;
   margin: 0;
   max-width: 200px;
+  max-height: 200px;
+  min-height: 200px;
 }
-
-
-
-
 
 
 
