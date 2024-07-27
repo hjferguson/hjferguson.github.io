@@ -13,7 +13,7 @@ const About = () => (
           <div className="text-container">
             <h1>Hi,</h1>
             <h2>I'm Harlan Ferguson</h2>
-            <h4>Full-Stack Software Engineer</h4>
+            <h4>Full Stack Developer</h4>
           </div>
         </div>
       </div>
