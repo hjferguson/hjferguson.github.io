@@ -1,80 +1,100 @@
 .hero-section {
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 100px 20px;
+    justify-content: flex-start; /* Align everything to the left */
+    padding: 100px 50px;
     background-color: #282c34;
     color: white;
-    text-align: center;
     height: 100vh;
-    box-sizing: border-box;
+    position: relative;
   }
   
   .hero-content {
-    max-width: 800px;
-    margin: 0 auto;
+    max-width: 700px; /* More space for text */
+    z-index: 10; /* Ensure the text stays above the image */
+    margin-left: 50px; /* Space out from the image */
   }
   
   .profile-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 700px; /* Make the image much larger */
+    height: auto;
+    z-index: 5; /* Positioned behind the text */
   }
   
   h1 {
-    font-size: 2.5rem;
+    font-size: 4rem; /* Much larger text */
     margin-bottom: 10px;
+    font-weight: bold;
   }
   
   h4 {
-    font-size: 1.5rem;
+    font-size: 2rem; /* Larger subheading */
     margin-bottom: 20px;
     color: #61dafb;
   }
   
   p {
-    font-size: 1.2rem;
+    font-size: 1.5rem; /* Larger paragraph text */
     margin-bottom: 30px;
-    line-height: 1.5;
+    line-height: 1.6;
   }
   
   .cta-button {
     background-color: #61dafb;
     color: #282c34;
-    padding: 15px 30px;
+    padding: 15px 40px;
     border: none;
-    border-radius: 5px;
-    font-size: 1.1rem;
+    border-radius: 50px;
+    font-size: 1.3rem;
     font-weight: bold;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.3s ease;
     text-decoration: none;
   }
   
   .cta-button:hover {
     background-color: #21a1f1;
+    transform: translateY(-3px);
   }
   
   @media (max-width: 768px) {
+    .hero-section {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 50px 20px;
+    }
+  
+    .profile-image {
+      position: relative;
+      width: 300px; /* Smaller image on mobile */
+      margin-bottom: 20px;
+      right: 0;
+      bottom: 0;
+    }
+  
+    .hero-content {
+      margin: 0;
+    }
+  
     h1 {
-      font-size: 2rem;
+      font-size: 3rem;
     }
   
     h4 {
-      font-size: 1.2rem;
+      font-size: 1.5rem;
     }
   
     p {
-      font-size: 1rem;
+      font-size: 1.2rem;
     }
   
     .cta-button {
-      padding: 12px 25px;
-      font-size: 1rem;
+      padding: 12px 30px;
+      font-size: 1.1rem;
     }
   }
   

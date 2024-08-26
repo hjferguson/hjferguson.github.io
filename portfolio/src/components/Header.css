@@ -24,22 +24,24 @@ header {
 }
 
 .navbar.scrolled {
-  background-color: rgba(92, 129, 188, 0.8); /* Background color after scrolling */
+  background-color:#61dafb; /* Background color after scrolling */
+  
+
 }
 
 .navbar a {
   color: #ffffff;
   text-decoration: none;
   padding: 10px 20px;
+  font-weight: bold;
+  font-size: 1.25em;
 }
 
 .navbar.scrolled a {
   color: #ffffff; /* Change link color when scrolled */
 }
 
-.navbar a:hover {
-  font-weight: bold;
-}
+
 
 .nav-logo a {
   font-size: 1.5em;
