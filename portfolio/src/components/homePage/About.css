@@ -1,0 +1,11 @@
+/* src/components/homePage/About.css */
+.about-section {
+  padding: 50px;
+  background-color: #f9f9f9;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
