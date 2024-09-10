@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import './Hero.css';
-import profilePic from '../../assets/profile_pic.png';
-import Modal from '../Modal';
-import ContactForm from '../ContactForm';
-import Dropdown from '../Dropdown';
+import profilePic from '../../../assets/profile_pic.png';
+import Modal from '../../Modal';
+import ContactForm from '../../ContactForm';
+import Dropdown from './Dropdown';
 
 const Hero = () => {
   const [showModal, setShowModal] = useState(false);

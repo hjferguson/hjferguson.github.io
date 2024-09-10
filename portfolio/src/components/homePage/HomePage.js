@@ -1,8 +1,8 @@
 import React from 'react';
-import Hero from './Hero';
-import About from './About';
+import Hero from './hero/Hero';
+import About from './about/About';
 import HighlightedProjects from './HighlightedProjects';
-import Contact from './Contact';
+import Contact from './contact/Contact';
 
 const HomePage = () => (
   <div>
