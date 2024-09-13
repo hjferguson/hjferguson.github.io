@@ -1,79 +1,35 @@
 .about-section {
   display: flex;
-  align-items: center;
-  justify-content: flex-start; /* Align everything to the left */
+  align-items: flex-start; /* Align text to the top */
+  justify-content: space-between;
   padding: 100px 50px;
-  background-color: #282c34; /* Update the background color to match the hero */
+  background-color: #282c34;
   color: white;
-  height: 100vh;
-  position: relative;
+  min-height: 100vh; /* Ensure the section takes up full viewport height */
+  overflow: hidden;  /* Prevent any overflow */
 }
+
 
 .about-content {
-  max-width: 700px; 
-  z-index: 10; /* Ensure the text stays above the image */
-  margin-left: 50px; 
+  flex: 1; /* Take up available space for text */
+  max-width: 50%;
+  z-index: 10;
+  margin-right: 20px;
 }
 
-.profile-image {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 700px; 
-  height: auto;
-  z-index: 5; /* Positioned behind the text */
-}
-
-h1 {
-  font-size: 4rem; 
-  margin-bottom: 10px;
-  font-weight: bold;
-}
-
-h4 {
-  font-size: 2rem; 
-  margin-bottom: 20px;
-  color: #61dafb;
-}
-
-p {
-  font-size: 1.5rem;
-  margin-bottom: 30px;
-  line-height: 1.6;
-}
-
-.cta-buttons {
+.about-image {
+  flex: 1;
   display: flex;
-  gap: 20px;
-  align-items: center;
+  justify-content: flex-end;
 }
 
-.cta-button {
-  background-color: #61dafb;
-  color: #282c34;
-  padding: 15px 30px; /* Ensure padding matches */
-  border: none;
-  border-radius: 50px;
-  font-size: 1.1rem;
-  font-weight: bold;
-  cursor: pointer;
-  text-decoration: none;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  transition: background-color 0.3s ease, transform 0.3s ease;
+.about-image img {
+  max-width: 70%; /* Ensure image is responsive */
+  height: auto;
+  border-radius: 10px;
 }
 
-.cta-button:hover {
-  background-color: #21a1f1;
-  transform: translateY(-3px);
-}
-
-.cta-button:focus {
-  outline: none;
-  box-shadow: 0 0 0 3px rgba(33, 161, 241, 0.5);
-}
-
+/* Mobile responsiveness */
 @media (max-width: 768px) {
   .about-section {
     flex-direction: column;
@@ -82,32 +38,12 @@ p {
     padding: 50px 20px;
   }
 
-  .profile-image {
-    position: relative;
-    width: 300px; 
+  .about-content, .about-image {
+    max-width: 100%; /* Full width on mobile */
+  }
+
+  .about-image img {
+    width: 300px; /* Smaller image for mobile */
     margin-bottom: 20px;
-    right: 0;
-    bottom: 0;
-  }
-
-  .about-content {
-    margin: 0;
-  }
-
-  h1 {
-    font-size: 3rem;
-  }
-
-  h4 {
-    font-size: 1.5rem;
-  }
-
-  p {
-    font-size: 1.2rem;
-  }
-
-  .cta-button {
-    padding: 12px 30px;
-    font-size: 1.1rem;
   }
 }
