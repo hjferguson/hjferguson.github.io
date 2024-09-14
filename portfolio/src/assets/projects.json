@@ -1,0 +1,112 @@
+[
+    {
+      "id": 1,
+      "title": "Emotion Detection with EfficientNet",
+      "category": "AI / ML Python",
+      "videoSrc": "/assets/video/computer_vision.mp4",
+      "description": "This Emotion Detection Project showcases the development and refinements of a model aimed at identifying human emotions. Initial overfitting was tackled by introducing validation sets and early stopping, without much success. Progressively, through adjustments such as data augmentation, model simplification, and convolutional layer enhancements, slight improvements were achieved. Transitioning from TensorFlow to PyTorch, the project saw significant enhancement with the adoption of EfficientNet, ultimately achieving 68.5% accuracy, which is impressive considering the 'high score' for this dataset sits around 75%. This journey not only refined my understanding of neural network optimization but also enhanced my skills in leveraging GPU over CPU, optimizing performance significantly.",
+      "techStack": "PyTorch, EfficientNet, GPU Acceleration",
+      "githubLink": "https://github.com/hjferguson/Emotion_Detection_AI"
+      
+    },
+    {
+      "id": 2,
+      "title": "My-Game: A Sports Social Media Web App",
+      "category": "JavaScript",
+      "videoSrc": "/assets/video/My-Game.mp4",
+      "description": "My-Game is a comprehensive sports social media platform that simplifies team management and enhances user interaction. As the project manager and lead developer, I focused on robust features like Auth0 integration for secure login, a dynamic feed for user posts, and real-time messaging with Socket.io. Utilizing Firebase for its CDN, the app delivers media content swiftly, ensuring an engaging user experience. Comprehensive user profiles, direct messaging, friendship, and post CRUD are among the key features I implemented, alongside secure JWT authentication for protected routes.",
+      "techStack": "MERN, Auth0, Firebase, Socket.io, MongoDB Atlas, JWT",
+      "githubLink": "https://github.com/RaleighD/My-Game"
+    },
+    {
+      "id": 3,
+      "title": "SpaceX Launch Tracker",
+      "category": "JavaScript",
+      "videoSrc": "/assets/video/spaceXDemo.mp4",
+      "description": "For a dive into Angular and real-world API consumption, I built a SpaceX Mission Tracker. This app hits the SpaceX API to list missions, filter them by year, and dive into mission specifics, including embedded launch videos for a richer experience. The project was a first-time experience with Angular, and I managed to get a grasp on its ecosystem, from routing to services, and how to properly architect an Angular application.",
+      "techStack": "Angular.js, SpaceX API",
+      "githubLink": "https://github.com/hjferguson/101133838-lab-test2-comp3133"
+    },
+    {
+      "id": 4,
+      "title": "Live Chatroom",
+      "category": "JavaScript",
+      "videoSrc": "/assets/video/chatapp.mp4",
+      "description": "Developed within a tight 12-hour deadline for a school lab test, this chat application leverages the Dockerized MERN stack for a complete user registration and login experience. Using JWT for secure authentication and Socket.io for real-time communication, users can interact across various chatrooms with dynamic notifications. This project demonstrates my ability to rapidly develop feature-rich applications under time constraints.",
+      "techStack": "MongoDB, Express.js, React.js, Node.js",
+      "githubLink": "https://github.com/hjferguson/live_chat_app"
+    },
+    {
+      "id": 5,
+      "title": "Scavenger Hunt Android App",
+      "category": "Mobile Development",
+      "videoSrc": "/assets/video/cityScav.mp4",
+      "description": "City Scav is an interactive mobile app that allows users to engage in a digital scavenger hunt using the Google Maps API. Users can collect and track points of interest (POIs), with rewards based on the number of collected POIs. This project highlights my technical skills in mobile app development and creative design.",
+      "techStack": "Java, Gradle",
+      "githubLink": "https://github.com/hjferguson/Scavenger_Hunt_Mobile_App"
+    },
+    {
+      "id": 6,
+      "title": "Employee Management Web App",
+      "category": "JavaScript",
+      "videoSrc": "/assets/video/emp_manager_MERN.mp4",
+      "description": "This Employee Management Web App uses the MERN stack to provide a secure login system with password encryption and a dashboard displaying key employee metrics. Managers can perform CRUD operations on employee data, offering an easy-to-use interface for team management.",
+      "techStack": "MongoDB, Express.js, React.js, Node.js",
+      "githubLink": "https://github.com/hjferguson/Employee_Management_Web_App"
+    },
+    {
+      "id": 7,
+      "title": "Chrome Extension that blocks phishing links using AI",
+      "category": "AI / ML Python",
+      "videoSrc": "/assets/video/anti_phish.mp4",
+      "description": "Developed in a 48-hour hackathon, this Chrome extension uses AI to assess email safety. By comparing email senders against a whitelist and using a Random Forest classifier trained on phishing email datasets, the extension provides a simple, user-friendly approach to email protection.",
+      "techStack": "Python (Scikit, Flask), JavaScript",
+      "githubLink": "https://github.com/hjferguson/AI_Anti_Phish"
+    },
+    {
+      "id": 8,
+      "title": "Reddit Title Predictor using Machine Learning",
+      "category": "AI / ML Python",
+      "videoSrc": "/assets/video/reddit_ml.mp4",
+      "description": "This project involved creating a dataset of Reddit titles and corresponding subreddits, then using a Bayes model to train and predict where new titles belong. I developed a web app where users can input a title and get an AI prediction for its subreddit.",
+      "techStack": "Python (Django/Scikit-Learn/Pandas), Typescript, React.js",
+      "githubLink": "https://github.com/hjferguson/reddit-ML"
+    },
+    {
+      "id": 9,
+      "title": "Workorder Management System",
+      "category": "Desktop Programs",
+      "videoSrc": "/assets/video/WO_examp.mp4",
+      "description": "This management system allows users to create, search, edit, and delete workorders with a simple UI. Developed in Python using Tkinter for the UI and SQLite for data management, this project helped streamline my tasks as a part-time maintenance worker.",
+      "techStack": "Python (Tkinter/Sqlite3)",
+      "githubLink": "https://github.com/hjferguson/workorderManagementSystem"
+    },
+    {
+      "id": 10,
+      "title": "Minimax Algorithm Tic-Tac-Toe",
+      "category": "Desktop Programs",
+      "videoSrc": "/assets/video/TTT_examp.mp4",
+      "description": "This Tic-Tac-Toe game, built with Java and Swing, includes AI opponents using the minimax algorithm. The project introduced me to recursive algorithms and basic AI principles, and served as a fun and educational experience in GUI development.",
+      "techStack": "Java (Swing)",
+      "githubLink": "https://github.com/OwenB-jng/TicTacToeGame"
+    },
+    {
+      "id": 11,
+      "title": "Employee Purchase Manager",
+      "category": "Desktop Programs",
+      "imgSrc": "/assets/employee_purchases.jpg",
+      "description": "A console application for managing employee purchases, including tracking discounts based on employment types. The project demonstrates my use of object-oriented programming principles, which made the application more organized and maintainable.",
+      "techStack": "Python",
+      "githubLink": "https://github.com/hjferguson/Employee_Purchases_Managment_App"
+    },
+    {
+      "id": 12,
+      "title": "Auto Texting Birthday Bot",
+      "category": "Desktop Programs",
+      "imgSrc": "/assets/birthday_bot.jpg",
+      "description": "This project automates birthday messages using the Twilio API. Originally developed using SMTP, I later improved the bot by using Twilio, which ensures message reliability. The bot runs on a Raspberry Pi using cron jobs for automation.",
+      "techStack": "Python, Bash",
+      "githubLink": "https://github.com/hjferguson/birth_bot_v2"
+    }
+  ]
+  

@@ -1,0 +1,39 @@
+.contact-section {
+  padding: 100px 50px;
+  background-color: #21a1f1; /* Distinct blue background */
+  color: #282c34;
+  text-align: center;
+  position: relative;
+}
+
+.contact-section-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-section h1 {
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.contact-section p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.contact-button {
+  background-color: #282c34;
+  color: #61dafb;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #61dafb;
+}

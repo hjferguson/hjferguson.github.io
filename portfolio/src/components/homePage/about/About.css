@@ -1,0 +1,84 @@
+.about-section {
+  display: flex;
+  align-items: flex-start; /* Align text to the top */
+  justify-content: space-between;
+  padding: 100px 50px;
+  background-color: #282c34;
+  color: white;
+  min-height: 100vh; /* Ensure the section takes up full viewport height */
+  overflow: hidden;  /* Prevent any overflow */
+}
+
+
+.about-content {
+  flex: 1; /* Take up available space for text */
+  max-width: 50%;
+  z-index: 10;
+  margin-right: 20px;
+}
+
+.about-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.about-image img {
+  max-width: 70%; /* Ensure image is responsive */
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .about-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 20px;
+  }
+
+  .about-content, .about-image {
+    max-width: 100%; /* Full width on mobile */
+  }
+
+  .about-image img {
+    width: 300px; /* Smaller image for mobile */
+    margin-bottom: 20px;
+  }
+}
+
+.strengths-heading {
+  color: #61dafb;
+  margin-top: 50px;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.strengths-icons {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.icon-wrapper {
+  background-color: #282c34; /* Dark background matching the section */
+  padding: 15px; /* Add padding around the icon to enlarge hover area */
+  border-radius: 10px; /* Rounded corners for a softer look */
+}
+
+.strengths-icons svg path {
+  color: #61dafb; /* Default icon color */
+  transition: color 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .strengths-icons {
+    justify-content: center;
+  }
+
+  .icon-wrapper {
+    margin: 15px;
+  }
+}

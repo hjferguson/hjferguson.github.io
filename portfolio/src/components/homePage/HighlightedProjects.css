@@ -1,0 +1,158 @@
+.highlighted-projects-section {
+  padding: 100px 50px;
+  background-color: #282c34; /* Matching background with other sections */
+  color: white;
+  position: relative;
+}
+
+.highlighted-projects-content {
+  max-width: 1200px; /* Center content and limit width */
+  margin: 0 auto;
+}
+
+.highlighted-projects-content h1 {
+  margin-bottom: 50px;
+  text-align: center;
+  padding-bottom: 150px;
+}
+
+.carousel-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 450px; /* Adjust height as needed to ensure the video looks proportional */
+  width: 100%;
+  position: relative;
+}
+
+.carousel-item {
+  width: 60%;
+  background-color: #1c1f25;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.5s ease-in-out;
+  flex-direction: column; /* Ensures content is stacked vertically */
+  justify-content: space-between; /* Ensures video and content fill space evenly */
+  min-height: 550px; /* Set a consistent minimum height for all tiles */
+}
+
+.carousel-video {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.carousel-content {
+  padding: 15px;
+}
+
+.carousel-content h3 {
+  margin-bottom: 10px;
+  font-size: 1.6rem;
+}
+
+.carousel-content p {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  min-height: 250px;
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #61dafb;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.project-link:hover {
+  color: #21a1f1;
+}
+
+/* Carousel Control Buttons */
+.carousel-control {
+  background-color: #61dafb;
+  color: #282c34;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.carousel-control svg path {
+  color: #282c34;
+}
+
+.carousel-control:hover {
+  background-color: #21a1f1;
+}
+
+.carousel-control.left {
+  left: -50px; /* Adjust position for the left arrow */
+}
+
+.carousel-control.right {
+  right: -50px; /* Adjust position for the right arrow */
+}
+
+/* Dots for navigation */
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 180px; /* Add space below the carousel for dots */
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: #61dafb;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background-color: #21a1f1; /* Darker color for the active dot */
+}
+
+.dot:hover {
+  background-color: #21a1f1;
+}
+
+.see-all-projects {
+  margin-top: 60px;
+  text-align: center;
+  
+}
+
+.see-all-button {
+  background-color: #61dafb;
+  color: #282c34;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.see-all-button:hover {
+  background-color: #21a1f1;
+}
