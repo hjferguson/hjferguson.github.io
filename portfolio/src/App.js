@@ -7,6 +7,7 @@ import Projects from './components/Projects';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // This imports the AOS CSS from the package
 
+
 function App() {
   useEffect(() => {
     AOS.init({
@@ -14,6 +15,7 @@ function App() {
       once: false,     
     });
   }, []);
+ 
 
   return (
     <Router>

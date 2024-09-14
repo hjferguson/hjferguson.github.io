@@ -39,7 +39,7 @@ const Header = () => {
           
           <Link to="/projects" onClick={toggleMobileMenu}>Projects</Link>
           <a href="/docs/assets/Harlan_Ferguson_Resume.pdf" target="_blank" rel="noreferrer" onClick={toggleMobileMenu}>Resume</a>
-          <Link to="/contact" onClick={toggleMobileMenu}>Contact</Link>
+          <Link to="#contact" onClick={toggleMobileMenu}>Contact</Link>
         </div>
         <div className={`nav-social ${isMobileMenuOpen ? 'open' : ''}`}>
           <a href="https://www.linkedin.com/in/harlan-ferguson-09b55010b/" target="_blank" rel="noreferrer">
