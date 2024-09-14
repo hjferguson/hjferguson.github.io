@@ -47,3 +47,38 @@
     margin-bottom: 20px;
   }
 }
+
+.strengths-heading {
+  color: #61dafb;
+  margin-top: 50px;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.strengths-icons {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.icon-wrapper {
+  background-color: #282c34; /* Dark background matching the section */
+  padding: 15px; /* Add padding around the icon to enlarge hover area */
+  border-radius: 10px; /* Rounded corners for a softer look */
+}
+
+.strengths-icons svg path {
+  color: #61dafb; /* Default icon color */
+  transition: color 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .strengths-icons {
+    justify-content: center;
+  }
+
+  .icon-wrapper {
+    margin: 15px;
+  }
+}

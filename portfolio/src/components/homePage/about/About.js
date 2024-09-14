@@ -1,6 +1,8 @@
 import React from 'react';
 import './About.css';
 import mechanicPic from '../../../assets/bike_mech.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPython, faJs, faReact, faJava, faHtml5, faCss3Alt, faDocker, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const About = () => (
   <section id="about" className="about-section">
@@ -19,6 +21,33 @@ const About = () => (
         In June of 2024 I graduated with honours from George Brown College with an Advanced Diploma in Computer Programming and Analysis.
       </p>
 
+      <h2 data-aos="fade-up" className="strengths-heading">My Strengths</h2>
+      <div className="strengths-icons" data-aos="fade-up" data-aos-delay="400">
+        <div className="icon-wrapper">
+          <FontAwesomeIcon icon={faPython} size="3x" title="Python" />
+        </div>
+        <div className="icon-wrapper">
+          <FontAwesomeIcon icon={faJs} size="3x" title="JavaScript" />
+        </div>
+        <div className="icon-wrapper">
+          <FontAwesomeIcon icon={faReact} size="3x" title="React" />
+        </div>
+        <div className="icon-wrapper">
+          <FontAwesomeIcon icon={faJava} size="3x" title="Java" />
+        </div>
+        <div className="icon-wrapper">
+          <FontAwesomeIcon icon={faHtml5} size="3x" title="HTML5" />
+        </div>
+        <div className="icon-wrapper">
+          <FontAwesomeIcon icon={faCss3Alt} size="3x" title="CSS3" />
+        </div>
+        <div className="icon-wrapper">
+          <FontAwesomeIcon icon={faDocker} size="3x" title="Docker" />
+        </div>
+        <div className="icon-wrapper">
+          <FontAwesomeIcon icon={faGithub} size="3x" title="GitHub" />
+        </div>
+      </div>
     </div>
 
     <div className="about-image" data-aos="slide-left" data-aos-delay="400">
