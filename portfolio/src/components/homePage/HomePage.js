@@ -5,14 +5,17 @@ import HighlightedProjects from './HighlightedProjects';
 import Contact from './contact/Contact';
 import useScrollToHash from '../useScrollToHash';
 
-const HomePage = () => (
-  useScrollToHash(),
-  <div>
-    <Hero />
-    <About />
-    <HighlightedProjects />
-    <Contact />
-  </div>
-);
+const HomePage = () => {
+  useScrollToHash();
+
+  return (
+    <div>
+      <Hero />
+      <About />
+      <HighlightedProjects />
+      <Contact />
+    </div>
+  );
+};
 
 export default HomePage;
