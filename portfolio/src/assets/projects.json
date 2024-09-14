@@ -2,7 +2,7 @@
     {
       "id": 1,
       "title": "Emotion Detection with EfficientNet",
-      "category": "Artificial Intelligence / Machine Learning",
+      "category": "AI / ML Python",
       "videoSrc": "/assets/video/computer_vision.mp4",
       "description": "This Emotion Detection Project showcases the development and refinements of a model aimed at identifying human emotions. Initial overfitting was tackled by introducing validation sets and early stopping, without much success. Progressively, through adjustments such as data augmentation, model simplification, and convolutional layer enhancements, slight improvements were achieved. Transitioning from TensorFlow to PyTorch, the project saw significant enhancement with the adoption of EfficientNet, ultimately achieving 68.5% accuracy, which is impressive considering the 'high score' for this dataset sits around 75%. This journey not only refined my understanding of neural network optimization but also enhanced my skills in leveraging GPU over CPU, optimizing performance significantly.",
       "techStack": "PyTorch, EfficientNet, GPU Acceleration",
@@ -57,7 +57,7 @@
     {
       "id": 7,
       "title": "Chrome Extension that blocks phishing links using AI",
-      "category": "Artificial Intelligence / Machine Learning",
+      "category": "AI / ML Python",
       "videoSrc": "/assets/video/anti_phish.mp4",
       "description": "Developed in a 48-hour hackathon, this Chrome extension uses AI to assess email safety. By comparing email senders against a whitelist and using a Random Forest classifier trained on phishing email datasets, the extension provides a simple, user-friendly approach to email protection.",
       "techStack": "Python (Scikit, Flask), JavaScript",
@@ -66,7 +66,7 @@
     {
       "id": 8,
       "title": "Reddit Title Predictor using Machine Learning",
-      "category": "Artificial Intelligence / Machine Learning",
+      "category": "AI / ML Python",
       "videoSrc": "/assets/video/reddit_ml.mp4",
       "description": "This project involved creating a dataset of Reddit titles and corresponding subreddits, then using a Bayes model to train and predict where new titles belong. I developed a web app where users can input a title and get an AI prediction for its subreddit.",
       "techStack": "Python (Django/Scikit-Learn/Pandas), Typescript, React.js",
