@@ -14,9 +14,10 @@ const Hero = () => {
 
   // Define the options for the dropdown
   const resumeOptions = [
-    { label: 'Default Resume', link: '/docs/assets/Harlan_Ferguson_Resume.pdf', icon: 'fas fa-file-alt' },
-    { label: 'Python Resume', link: '/docs/assets/Harlan_Ferguson_Python_Resume.pdf', icon: 'fab fa-python' },
-    { label: 'JavaScript Resume', link: '/docs/assets/Harlan_Ferguson_JS_Resume.pdf', icon: 'fab fa-js' }
+    { label: 'AI/ML Python', link: '/assets/resumes/Harlan_Ferguson_Resumeml.pdf', icon: 'fab fa-python' },
+    { label: 'JavaScript', link: '/assets/resumes/Harlan_Ferguson_Resumejs.pdf', icon: 'fab fa-js' },
+    { label: 'Systems Integrator', link: '/assets/resumes/Harlan_Ferguson_Resume_SI.pdf', icon: 'fas fa-file-alt' },
+    { label: 'Microsoft Dynamics365', link: '/assets/resumes/Harlan_Ferguson_Resumed365.pdf', icon: 'fab fa-microsoft' }    
   ];
 
   return (
