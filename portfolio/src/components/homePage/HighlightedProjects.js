@@ -27,7 +27,7 @@ const HighlightedProjects = () => {
     setTimeout(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % highlightedProjects.length); // Loop through projects
       setIsAnimating(false);
-    }, 500); // Adjust delay to match the CSS animation time
+    }, 100); // Adjust delay to match the CSS animation time
   };
 
   const goToPreviousProject = () => {
@@ -70,9 +70,15 @@ const HighlightedProjects = () => {
               <div className="carousel-content">
                 <h3>{highlightedProjects[currentIndex].title}</h3>
                 <p>{highlightedProjects[currentIndex].description}</p>
-                <Link to={highlightedProjects[currentIndex].githubLink} className="project-link">
+                <Link
+                  to={highlightedProjects[currentIndex].githubLink}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="project-link"
+                >
                   View on GitHub
                 </Link>
+
               </div>
             </div>
           </div>

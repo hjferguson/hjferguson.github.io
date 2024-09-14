@@ -1,43 +1,39 @@
 .contact-section {
-    padding: 50px;
-    background-color: #f1f1f1;
-  }
-  
-  .contact-content {
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
-  }
-  
-  .contact-content form {
-    margin-top: 20px;
-    text-align: left;
-  }
-  
-  .contact-content label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  .contact-content input,
-  .contact-content textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .contact-content button {
-    background-color: #007bff;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .contact-content button:hover {
-    background-color: #0056b3;
-  }
-  
+  padding: 100px 50px;
+  background-color: #61dafb; /* Distinct blue background */
+  color: #282c34;
+  text-align: center;
+  position: relative;
+}
+
+.contact-section-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-section h1 {
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.contact-section p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.contact-button {
+  background-color: #282c34;
+  color: #61dafb;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #21a1f1;
+}
