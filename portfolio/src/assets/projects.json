@@ -6,8 +6,8 @@
       "videoSrc": "/assets/video/computer_vision.mp4",
       "description": "This Emotion Detection Project showcases the development and refinements of a model aimed at identifying human emotions. Initial overfitting was tackled by introducing validation sets and early stopping, without much success. Progressively, through adjustments such as data augmentation, model simplification, and convolutional layer enhancements, slight improvements were achieved. Transitioning from TensorFlow to PyTorch, the project saw significant enhancement with the adoption of EfficientNet, ultimately achieving 68.5% accuracy, which is impressive considering the 'high score' for this dataset sits around 75%. This journey not only refined my understanding of neural network optimization but also enhanced my skills in leveraging GPU over CPU, optimizing performance significantly.",
       "techStack": "PyTorch, EfficientNet, GPU Acceleration",
-      "githubLink": "https://github.com/hjferguson/Emotion_Detection_AI",
-      "youtubeLink": "https://www.youtube.com/watch?v=T8JSCDt7_m8&t=954s"
+      "githubLink": "https://github.com/hjferguson/Emotion_Detection_AI"
+      
     },
     {
       "id": 2,

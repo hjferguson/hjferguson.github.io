@@ -1,6 +1,6 @@
 .contact-section {
   padding: 100px 50px;
-  background-color: #61dafb; /* Distinct blue background */
+  background-color: #21a1f1; /* Distinct blue background */
   color: #282c34;
   text-align: center;
   position: relative;
@@ -35,5 +35,5 @@
 }
 
 .contact-button:hover {
-  background-color: #21a1f1;
+  background-color: #61dafb;
 }

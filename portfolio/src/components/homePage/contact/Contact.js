@@ -17,7 +17,7 @@ const ContactSection = () => {
         <p data-aos="fade-up" data-aos-delay="200">
           I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
         </p>
-        <button onClick={toggleModal} className="contact-button">
+        <button onClick={toggleModal} className="cta-button-dark">
           Get in Touch
         </button>
       </div>

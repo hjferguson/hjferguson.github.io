@@ -100,7 +100,7 @@ const HighlightedProjects = () => {
         </div>
 
         <div className="see-all-projects">
-          <Link to="/projects" className="see-all-button">See All Projects</Link>
+          <Link to="/projects" className="cta-button">See All Projects</Link>
         </div>
       </div>
     </section>
